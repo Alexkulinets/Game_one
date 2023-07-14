@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css2?family=Monofett&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap);
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.grid {
+position: absolute;
+  width: 1520px;
+  height: 450px;
+  margin-top: 100px;
+}
+body{
+  overflow: hidden;
+}
+h1{
+  margin-left:175px;
+  text-align: center;
+  color:white;
+  font-family: 'Modern Antiqua', display;
+  margin-top:50px;
+  width:100%;
+  height:55px;
+  font-size:45.5px;
+  font-weight: 900;
+  text-shadow: rgb(0, 0, 0) 3px 4px 4.5px ;
+  
+}
+
+img{
+  position: absolute;
+}
+
+.img{
+  width:175px;
+  height:175px;
+}
+
+
+img:nth-child(1){
+  margin-left:975px;
+  margin-top:250px;
+}
+img:nth-child(2){
+  width:200px;
+  height:200px;
+  margin-right:1025px;
+  margin-top:-25px;
+}
+img:nth-child(3){
+  width:250px;
+  height:250px;
+  margin-right:675px;
+  margin-top:350px;
+}
+img:nth-child(4){
+  width:400px;
+  height:400px;
+  margin-left:750px;
+  margin-top:200px;
+}
+.user {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  margin-bottom:125px;
+  background-image: url("./Img/iconone.png");
+  background-position:30%;
+  background-size: 120px;
+  transition: 0.25s;
+}
+.user:active{
+  transform:0.25s;
+}
+.block {
+  position: absolute;
+  width: 100px;
+  height: 22.75px;
+  margin-bottom:125px;
+  background-color:   #62c1d8;
+  margin-left:-55.7px;
+  border-radius: 7.5px 0 7.5px 0;
+}
+.block:nth-child(1), .block:nth-child(2), .block:nth-child(3), .block:nth-child(4), .block:nth-child(5), .block:nth-child(16), .block:nth-child(17), .block:nth-child(18), .block:nth-child(19), .block:nth-child(20), .block:nth-child(31), .block:nth-child(32), .block:nth-child(33){
+  background: #2e6592;
+  border-radius: 7.5px 0  7.5px  0;
+}
+.block:nth-child(6),.block:nth-child(7),.block:nth-child(8),.block:nth-child(9),.block:nth-child(10),.block:nth-child(21),.block:nth-child(22),.block:nth-child(23),.block:nth-child(24),.block:nth-child(25),.block:nth-child(34),.block:nth-child(35),.block:nth-child(36) {
+  background: #abdbe3;
+  border-radius: 0  7.5px 0 7.5px ;
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-bottom:125px;
+  border-radius: 10px;
+  background-color: rgb(173, 173, 173);
+  border: rgb(192, 192, 192) 2.5px solid;
+}
+
+main{
+  position: absolute;
+  margin-top:-725px;
+  width:100%;
+  height:100%;
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  width:150px;
+  height:60px;
+  text-align: center;
+  background: 
+  #89bce3;
+  color:white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+  border-radius: 15.5px; 
+  border: rgb(160,215,255) 5px solid;
+  font-weight: 900;
+  text-shadow: rgb(0, 0, 0) 3px 4px 4.5px ;
+  transition: 0.25s;
+}
+button:hover{
+  transform:0.25s;
+  border-radius:7.5px;
+  background: #5b829f;
+}
+button:active{
+
+  border-radius:15.5px;
+  background: rgb(160,215,255);
+}
+.wrap-layer{
+  position: relative;
+}
+.text-layer{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  text-align: center;
+  font-size: 32px;
+  line-height: 1.2;
+  pointer-events: none;
+}
+.background-layer svg * {
+  transition: fill 1s ease;
+}
+.background-layer:hover #E1{fill: rgb(0, 73, 86);}
+.background-layer:hover #E2{fill: rgb(0, 48, 85);}
+.background-layer:hover #E3{fill: rgb(0, 65, 102);}
+.background-layer:hover #E4{fill: rgb(2, 52, 105);}
+.background-layer:hover #E5{fill: rgb(0, 32, 101);}
